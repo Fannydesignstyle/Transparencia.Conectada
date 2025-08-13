@@ -1,13 +1,12 @@
 import React from 'react';
 import './Footer.css'; // Archivo CSS para los estilos
-import logoFooter from '../assets/logo-footer.png'; // Asegúrate de tener un logo para el footer
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-contenido">
-        <div className="footer-seccion logo-seccion">
-          <img src={logoFooter} alt="Logo de Transparencia Conectada" className="logo-footer" />
+    <footer class="footer">
+      <div class="footer-contenido">
+        <div class="footer-seccion logo-seccion">
+          <img src="/images/logo-footer.jpeg" alt="Logo de Transparencia Conectada" class="logo-footer" />
           <p className="slogan">Diseño y tecnología para la transparencia.</p>
         </div>
 

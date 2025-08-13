@@ -1,0 +1,44 @@
+/* Estilos para la página de aterrizaje */
+
+.landing-page-container {
+    /* Este contenedor envuelve toda la página, 
+       los estilos de fondo y espaciado de cada sección 
+       se manejan en sus propios componentes.
+    */
+    background-color: #ffffff; 
+}
+
+/* Estilo para las secciones que no tienen su propio fondo de color */
+div[id] > section, .seccion-destacados {
+    padding: 4rem 2rem;
+}
+
+/* Título para la sección de funcionarios destacados */
+.seccion-destacados h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+/* Contenedor para las tarjetas de los funcionarios */
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* Espacio entre las tarjetas */
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Adaptación para pantallas más pequeñas */
+@media (max-width: 768px) {
+    div[id] > section, .seccion-destacados {
+        padding: 3rem 1rem;
+    }
+
+    .seccion-destacados h2 {
+        font-size: 2rem;
+    }
+}

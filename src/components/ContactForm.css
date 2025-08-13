@@ -1,0 +1,71 @@
+/* Estilos para el formulario de contacto */
+
+.contact-form-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9; /* Fondo gris claro como otras secciones */
+}
+
+.contact-form-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #0a234f; /* Azul institucional al enfocar */
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    background-color: #0a234f; /* Azul institucional */
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1e4078; /* Azul más claro */
+}
