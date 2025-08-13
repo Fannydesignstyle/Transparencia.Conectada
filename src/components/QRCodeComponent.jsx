@@ -1,5 +1,5 @@
 import React from 'react';
-import { QRCode } from 'qrcode.react';
+import QRCode from 'qrcode.react';
 
 const QRCodeComponent = ({ url, size = 128 }) => {
   return (
