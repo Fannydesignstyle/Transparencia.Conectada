@@ -1,12 +1,11 @@
 import React from 'react';
 import './PerfilFundadora.css'; // Archivo CSS para los estilos
-import fundadoraImage from '../assets/estefania-perez.jpg'; // Importa la imagen localmente
 
 const PerfilFundadora = () => {
   return (
     <section className="perfil-fundadora-section">
       <div className="perfil-contenido">
-        <img src={fundadoraImage} alt="Estefanía Pérez Vázquez" className="foto-fundadora" />
+        <img src="/images/estefania-perez.png" alt="Estefanía Pérez Vázquez" className="foto-fundadora" />
         <div className="info-fundadora">
           <h2 className="titulo-fundadora">Estefanía Pérez Vázquez</h2>
           <p className="descripcion-fundadora">
