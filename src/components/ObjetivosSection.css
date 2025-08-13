@@ -1,0 +1,65 @@
+.objetivos-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.objetivos-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.objetivos-titulo {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.objetivos-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tarjeta-objetivo {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out, box-shadow 0.3s ease;
+}
+
+.objetivos-section.visible .tarjeta-objetivo {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.tarjeta-objetivo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.icono-objetivo {
+  font-size: 3rem;
+  color: #007bff; /* Un color azul primario */
+  margin-bottom: 1.5rem;
+}
+
+.titulo-objetivo {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.descripcion-objetivo {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}

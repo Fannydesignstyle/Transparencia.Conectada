@@ -1,0 +1,75 @@
+.perfil-fundadora-section {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .perfil-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .foto-fundadora {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 5px solid #007bff;
+  }
+  
+  .info-fundadora {
+    text-align: center;
+  }
+  
+  .titulo-fundadora {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .descripcion-fundadora {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  
+  .boton-portafolio {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-portafolio:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    .perfil-contenido {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .foto-fundadora {
+      margin-right: 2rem;
+      margin-bottom: 0;
+    }
+  
+    .info-fundadora {
+      text-align: left;
+    }
+  }
+  

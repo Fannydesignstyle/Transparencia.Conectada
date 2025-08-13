@@ -1,0 +1,40 @@
+.propuesta-valor-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .propuesta-valor-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+  }
+  
+  .propuesta-valor-puntos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .punto-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .punto-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0056b3;
+  }
+  
+  .punto-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  

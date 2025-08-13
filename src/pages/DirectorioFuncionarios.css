@@ -1,0 +1,36 @@
+.directorio-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.directorio-titulo {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.filtros-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filtro-input, .filtro-select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.listado-funcionarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.no-resultados {
+  text-align: center;
+  width: 100%;
+  grid-column: 1 / -1;
+  color: #777;
+}

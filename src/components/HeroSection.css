@@ -1,0 +1,56 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh; /* Ocupa el 80% de la altura de la ventana */
+  background-color: #0a234f; /* Paleta institucional: azul profundo */
+  color: #ffffff;
+  padding: 20px;
+}
+
+.hero-contenido {
+  max-width: 800px;
+}
+
+.hero-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.boton-accion {
+  background-color: #ffffff;
+  color: #0a234f;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-accion:hover {
+  background-color: #e6e6e6; /* Gris claro para el hover */
+}
+
+/* Adaptación para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .hero-titulo {
+    font-size: 2.5em;
+  }
+  
+  .hero-subtitulo {
+    font-size: 1.2em;
+  }
+}

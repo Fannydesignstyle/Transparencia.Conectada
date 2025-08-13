@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nombre": "Estefanía Pérez Vázquez",
+    "cargo": "Fundadora de Fanny Design Style",
+    "dependencia": "Transparencia Conectada",
+    "descripcion": "Estefanía es una diseñadora estratégica y gestora de innovación cívica...",
+    "imagenUrl": "/images/estefania-perez-vazquez.jpg",
+    "perfilProfesional": "...",
+    "habilidadesDestacadas": [
+      "Diseño institucional y branding profesional",
+      "Narrativas visuales con impacto emocional"
+    ],
+    "objetivosActuales": [
+      "Refinar la estructura visual de la plataforma",
+      "Integrar métricas en tiempo real con Azure Application Insights"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Juan García López",
+    "cargo": "Secretario de Finanzas",
+    "dependencia": "Secretaría de Finanzas",
+    "descripcion": "Juan García es un economista con más de 15 años de experiencia...",
+    "imagenUrl": "/images/juan-garcia-lopez.jpg",
+    "perfilProfesional": "...",
+    "habilidadesDestacadas": [
+      "Gestión de presupuestos",
+      "Análisis de datos financieros"
+    ],
+    "objetivosActuales": [
+      "Optimizar la recaudación de impuestos",
+      "Implementar un sistema de auditoría digital"
+    ]
+  }
+]

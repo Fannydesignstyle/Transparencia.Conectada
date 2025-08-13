@@ -1,0 +1,21 @@
+
+{
+    "titulo": "Nuestra Propuesta de Valor",
+    "puntos": [
+      {
+        "id": 1,
+        "titulo": "Transparencia Radical",
+        "descripcion": "Accede a información clara y directa sobre la gestión de tus representantes. Sin intermediarios, sin opacidad."
+      },
+      {
+        "id": 2,
+        "titulo": "Conexión Directa",
+        "descripcion": "Establece un canal de comunicación directo con los funcionarios. Tu voz importa y queremos que sea escuchada."
+      },
+      {
+        "id": 3,
+        "titulo": "Participación Ciudadana Activa",
+        "descripcion": "Fomentamos una cultura de participación donde cada ciudadano es un pilar fundamental en la construcción de un gobierno más justo y transparente."
+      }
+    ]
+  }
