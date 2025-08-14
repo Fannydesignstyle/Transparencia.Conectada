@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import QRCodeComponent from '../components/QRCodeComponent';
 import ManifiestoSection from '../components/ManifiestoSection';
 import PropuestaValorSection from '../components/PropuestaValorSection';
 import ObjetivosSection from '../components/ObjetivosSection';
@@ -14,7 +15,8 @@ const LandingPage = () => {
   return (
     <div className="landing-page-container">
       <HeroSection />
-      
+      <QRCodeComponent value="https://transparencia-conectada.cl/" />
+
       <div id="propuesta">
         <PropuestaValorSection />
       </div>
