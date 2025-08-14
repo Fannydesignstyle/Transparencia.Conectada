@@ -73,7 +73,20 @@ const FichaFuncionario = () => {
           <div className="seccion-texto">
             <h2>Perfil profesional</h2>
             <p>{funcionario.perfilProfesional}</p>
-            {/* ... */}
+
+            <h2>Habilidades Destacadas</h2>
+            <ul>
+              {funcionario.habilidadesDestacadas.map((habilidad, index) => (
+                <li key={index}>{habilidad}</li>
+              ))}
+            </ul>
+
+            <h2>Objetivos Actuales</h2>
+            <ul>
+              {funcionario.objetivosActuales.map((objetivo, index) => (
+                <li key={index}>{objetivo}</li>
+              ))}
+            </ul>
           </div>
           <div className="seccion-descarga">
             <div className="qr-institucional-ficha">

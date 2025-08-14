@@ -9,10 +9,7 @@ const PerfilFundadora = () => {
         <div className="info-fundadora">
           <h2 className="titulo-fundadora">Estefanía Pérez Vázquez</h2>
           <p className="descripcion-fundadora">
-            Fundadora de Fanny Design Style y creadora de Transparencia Conectada.
-            Estefanía es una diseñadora estratégica y gestora de innovación cívica
-            que busca fortalecer la transparencia desde la ciudadanía, combinando
-            estética, funcionalidad y participación social.
+            Estefanía es una diseñadora estratégica y gestora de innovación cívica. Fundadora de Fanny Design Style y creadora de Transparencia Conectada, una plataforma que impulsa la transparencia institucional desde la ciudadanía. Su enfoque combina estética, funcionalidad y participación social.
           </p>
           <a
             href="https://fannydesignstyle.com/portafolio" // URL de ejemplo, cámbiala por la real

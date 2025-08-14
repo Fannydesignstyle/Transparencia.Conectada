@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { QRCode } from 'qrcode.react';
+import { QRCodeCanvas } from 'qrcode.react';
 
 const QRCodeComponent = ({ value }) => {
   const qrRef = useRef();
@@ -21,7 +21,7 @@ const QRCodeComponent = ({ value }) => {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <div ref={qrRef}>
-        <QRCode
+        <QRCodeCanvas
           value={value}
           size={200}                // 📏 Tamaño en píxeles
           bgColor="#ffffff"         // 🎨 Fondo blanco

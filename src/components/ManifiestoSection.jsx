@@ -6,6 +6,7 @@ const ManifiestoSection = () => {
   const manifiestoRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = manifiestoRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
@@ -18,13 +19,13 @@ const ManifiestoSection = () => {
       { threshold: 0.5 } // 50% del componente visible
     );
 
-    if (manifiestoRef.current) {
-      observer.observe(manifiestoRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (manifiestoRef.current) {
-        observer.unobserve(manifiestoRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

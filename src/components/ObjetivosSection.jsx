@@ -34,6 +34,7 @@ const ObjetivosSection = () => {
   const objetivosRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = objetivosRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -44,13 +45,13 @@ const ObjetivosSection = () => {
       { threshold: 0.3 } // El 30% del componente visible
     );
 
-    if (objetivosRef.current) {
-      observer.observe(objetivosRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (objetivosRef.current) {
-        observer.unobserve(objetivosRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
